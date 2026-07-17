@@ -1,0 +1,288 @@
+menu:
+  文章:
+    隧道: /archives/ || anzhiyu-icon-box-archive
+    分类: /categories/ || anzhiyu-icon-shapes
+    标签: /tags/ || anzhiyu-icon-tags
+
+  友链:
+    友人帐: /link/ || anzhiyu-icon-link
+    留言板: /comments/ || anzhiyu-icon-envelope
+
+  关于:
+    关于本人: /about/ || anzhiyu-icon-paper-plane
+    随便逛逛: javascript:toRandomPost() || anzhiyu-icon-shoe-prints1
+
+# Code Blocks
+highlight_theme: darker
+highlight_copy: true
+highlight_lang: true
+highlight_shrink: false
+highlight_height_limit: 330
+code_word_wrap: true
+
+# social settings
+social:
+  Github: https://github.com/boyingluo-byte || anzhiyu-icon-github
+
+# 作者卡片
+author_status:
+  enable: true
+  statusImg: "https://bu.dusays.com/2023/08/24/64e6ce9c507bb.png"
+  skills:
+    - "🔒 网络安全学习者"
+    - "🚩 CTF选手"
+    - "🔍 渗透测试爱好者"
+    - "💻 密码学方向"
+
+# Local search
+local_search:
+  enable: true
+  preload: true
+
+# Avatar
+avatar:
+  img: https://bu.dusays.com/2023/04/27/64496e511b09c.jpg
+  effect: false
+
+# Cover
+cover:
+  index_enable: true
+  aside_enable: true
+  archives_enable: true
+  position: left
+  default_cover:
+    - /img/default_cover.jpg
+
+# post_meta
+post_meta:
+  page:
+    date_type: created
+    date_format: simple
+    categories: true
+    tags: true
+    label: false
+  post:
+    date_type: both
+    date_format: date
+    categories: true
+    tags: true
+    label: true
+
+# Word count
+wordcount:
+  enable: true
+  post_wordcount: true
+  min2read: true
+  total_wordcount: true
+
+# TOC
+toc:
+  post: true
+  page: false
+  number: true
+  expand: false
+  style_simple: false
+
+# Post copyright
+post_copyright:
+  enable: true
+  decode: false
+  location: 赣州
+  license: CC BY-NC-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+# Footer
+footer:
+  owner:
+    enable: true
+    since: 2026
+  runtime:
+    enable: true
+    launch_time: 07/17/2026 00:00:00
+  footerBar:
+    enable: true
+    authorLink: /
+    linkList:
+      - link: https://github.com/anzhiyu-c/hexo-theme-anzhiyu
+        text: 主题
+
+# Theme color
+theme_color:
+  enable: true
+  main: "#425AEF"
+  dark_main: "#f2b94b"
+
+# Aside
+aside:
+  enable: true
+  hide: false
+  button: true
+  mobile: true
+  position: right
+  display:
+    archive: true
+    tag: true
+    category: true
+  card_author:
+    enable: true
+    name_link: /
+  card_announcement:
+    enable: true
+    content: "欢迎来到e的博客，记录安全技术学习与CTF writeup~"
+  card_weixin:
+    enable: false
+  card_recent_post:
+    enable: true
+    limit: 5
+    sort: date
+  card_tags:
+    enable: true
+    limit: 40
+    color: true
+    highlightTags:
+      - CTF
+      - 渗透测试
+      - 漏洞复现
+      - 密码学
+  card_archives:
+    enable: true
+    type: monthly
+    format: YYYY年MM月
+    order: -1
+    limit: 8
+  card_webinfo:
+    enable: true
+    post_count: true
+
+# Dark mode
+darkmode:
+  enable: true
+  button: true
+  autoChangeMode: 1
+
+# Preloader
+preloader:
+  enable: true
+  source: 3
+  avatar: https://bu.dusays.com/2023/04/27/64496e511b09c.jpg
+
+# Beautify
+beautify:
+  enable: true
+  field: post
+
+# Home top
+home_top:
+  enable: true
+  timemode: date
+  title: 学无止境
+  subTitle: 安全第一。
+  siteText: boyingluo-byte.github.io
+  category:
+    - name: CTF Writeup
+      path: /categories/CTF/
+      shadow: var(--anzhiyu-shadow-blue)
+      class: blue
+      icon: anzhiyu-icon-flag
+    - name: 渗透测试
+      path: /categories/渗透测试/
+      shadow: var(--anzhiyu-shadow-red)
+      class: red
+      icon: anzhiyu-icon-fire
+    - name: 学习笔记
+      path: /categories/学习笔记/
+      shadow: var(--anzhiyu-shadow-green)
+      class: green
+      icon: anzhiyu-icon-book
+  default_descr: "记录每一次学习和成长"
+  banner:
+    tips: 安全学习笔记
+    title: e的博客
+    image: https://bu.dusays.com/2023/05/13/645fa3cf90d70.webp
+    link: /archives/
+
+# 首页双栏显示
+article_double_row: true
+
+# 深色模式粒子效果
+universe:
+  enable: true
+
+# 音乐
+nav_music:
+  enable: false
+
+# 首页看板娘（换成男性角色）
+peoplecanvas:
+  enable: true
+  img: /img/mascot-male.png
+
+# 欢迎语
+greetingBox:
+  enable: true
+  default: 你好呀~
+  list:
+    - greeting: 夜深了，早点休息~
+      startTime: 0
+      endTime: 5
+    - greeting: 早上好，新的一天开始了~
+      startTime: 6
+      endTime: 9
+    - greeting: 上午好，今天也要加油~
+      startTime: 10
+      endTime: 12
+    - greeting: 中午好，记得吃饭~
+      startTime: 12
+      endTime: 14
+    - greeting: 下午好，继续学习~
+      startTime: 14
+      endTime: 18
+    - greeting: 晚上好，辛苦了~
+      startTime: 18
+      endTime: 24
+
+# AI摘要
+post_head_ai_description:
+  enable: true
+  gptName: e的博客
+  mode: local
+
+# 标签卖萌
+diytitle:
+  enable: true
+  leaveTitle: 别走呀，再看看嘛~
+  backTitle: 欢迎回来！
+
+# 运行时间
+runtimeshow:
+  enable: true
+  publish_date: 7/17/2026 00:00:00
+
+# 无障碍
+accesskey:
+  enable: true
+
+# Pjax
+pjax:
+  enable: true
+
+# Snackbar
+snackbar:
+  enable: true
+  position: top-center
+
+# Lazyload
+lazyload:
+  enable: true
+  field: site
+  blur: true
+  progressive: true
+
+# instantpage
+instantpage: true
+
+# Copy
+copy:
+  enable: true
+  copyright:
+    enable: false
